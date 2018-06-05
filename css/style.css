@@ -115,7 +115,7 @@ h1 {
 }
 
 #link {
-    background: #ff7675;
+    background: #2d3436;
     height: 20vh;
     text-align: center;
 }
@@ -128,7 +128,7 @@ h1 {
 
 .anchor {
     display: inline-block;
-    background-color: #fab1a0;
+    background-color: #636e72;
     padding: 2%;
     width: 10px;
     height: 10px;
