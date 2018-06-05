@@ -28,7 +28,7 @@ header h1 {
 nav {
     position: sticky;
     top: 0;
-    z-index: 8;
+    z-index: 2;
 }
 
 ul {
@@ -55,8 +55,7 @@ section {
     font-weight: 200;
     line-height: 2;
     color: rgb(58, 58, 58);
-    padding-top: 12vh;
-    padding-bottom: 12vh;
+    
 }
 
 h1 {
@@ -85,19 +84,19 @@ h1 {
 
 .content {
     color: #FFFFFF;
-    display: table-cell;
+    display: block;
     vertical-align: middle;
     padding: 7%;
 }
 
 #hey {
     background: #3498db;
-    height: 60vh;
+    height: 70vh;
 }
 
 #cool {
     background: #f1c40f;
-    height: 100vh;
+    height: 80vh;
 }
 
 #truth {
@@ -107,7 +106,7 @@ h1 {
 
 #all-css {
     background: #34495e;
-    height: 50vh;
+    height: 70vh;
 }
     
 #conclusion {
@@ -116,9 +115,34 @@ h1 {
 }
 
 #link {
-    background: #2980b9;
-    height: 4vh;
+    background: #ff7675;
+    height: 20vh;
     text-align: center;
+}
+
+.div-link {
+    display: inline-block;
+    position: relative;
+    top: 38%;
+}
+
+.anchor {
+    display: inline-block;
+    background-color: #fab1a0;
+    padding: 2%;
+    width: 10px;
+    height: 10px;
+    border-radius: 40px;
+    vertical-align: middle;
+    position: relative;
+    top: 30%;
+    left: 30%;
+}
+
+.anchor h2 {
+    position: relative;
+    bottom: 20px;
+    right: 4px;
 }
 
 .link:hover {
